@@ -11,7 +11,7 @@ The ```run_analysis.R``` script in this repository does the following:
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##Steps the Take Before Executing the Script
-1. Download the **UCI HAR Dataset** from (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
+1. Download the Samsung data from (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
 and unzip it to a directory on your local machine.
 2. Copy ```run_analysis.R``` to the same directory where the **UCI HAR Dataset** directory exists.
 3. Set your working directory in R to the same directory where the **UCI HAR Dataset** directory and the ```run_analysis.R``` script exist.

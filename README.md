@@ -18,9 +18,11 @@ and unzip it to a directory on your local machine.
 
 ##How to Execute the Script
 From the R prompt, run:
->> source(run_analysis.R)
->> run_analysis()
- 
+```
+> source(run_analysis.R)
+> run_analysis()
+```
+
 ##Expected Output of the Script
 The run_analysis.R script will create a file in your working directory called project_tidy_data.txt that contains a tidy data set of the test and train
 data in the UCI HAR Dataset directory.

@@ -5,9 +5,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
-###For each record it is provided:
-======================================
-
+####For each record it is provided:
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
 - A 561-feature vector with time and frequency domain variables. 
@@ -20,12 +18,17 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 The data:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-##Data Transformation
-There are 5 parts:
-1.The training and the test sets were merged to create one data set.
-2.Measurements for the mean and standard deviation were extracted from the merged data set.
-3.Added descriptive activity names to name the activities in the data set.
-4.Appropriately labeled the data set with descriptive activity names.
-5.Created a second, independent tidy data set with the average of each variable for each activity and each subject.
+##How Data Was Transformed
+The ```run_analysis.R code``` transforms the data into a tidy data set.  The code performs the following:
+- Reads in the activity labels, the column names for the test and train data, the test and train data, and the subject information. 
+- Assigns column names to the test and train data. 
+- Removes any columns of data that are not mean or std deviation measurements. 
+- Assigns subject and activity columns to the data sets. 
+- Combines the test and train data sets. 
+- Stacks a set of columns into a single column of data.   
+- Gets the average of each variable for each activity and each subject. 
+- Writes the tidy data set to a file. 
+
+
 
 ###For details on running the code, please see the README.md file located in this directory.

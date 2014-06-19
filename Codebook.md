@@ -28,4 +28,4 @@ There are 5 parts:
 4.Appropriately labeled the data set with descriptive activity names.
 5.Created a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-##For details on running the code, please see the README.md file located in this directory.
+###For details on running the code, please see the README.md file located in this directory.

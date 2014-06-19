@@ -15,6 +15,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 ##Data Sources
 Details on the data: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 The data:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 

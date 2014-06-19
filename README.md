@@ -24,6 +24,15 @@ From the R prompt, run:
 > source(run_analysis.R)
 > run_analysis()
 ```
+The  run_analysis.R code  transforms the data into a tidy data set. The code performs the following:
+- Reads in the activity labels, the column names for the test and train data, the test and train data, and the subject information. 
+- Assigns column names to the test and train data. 
+- Removes any columns of data that are not mean or std deviation measurements. 
+- Assigns subject and activity columns to the data sets. 
+- Combines the test and train data sets. 
+- Stacks a set of columns into a single column of data.
+- Gets the average of each variable for each activity and each subject. 
+- Writes the tidy data set to a file. 
 
 
 ##Expected Output of the Script

@@ -1,4 +1,4 @@
-Getting_and_Cleaning_Data_Project
+Getting and Cleaning Data Project
 =================================
 
 The ```run_analysis.R``` script in this repository does the following:
